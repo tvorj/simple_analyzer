@@ -20,6 +20,7 @@ def read_interval():
 def main():
     interval, sequence_length = read_interval()
 
+    print(f'new print')
     print(f'interval : {interval}')
     print(f'sequence_length : {sequence_length}')
 
