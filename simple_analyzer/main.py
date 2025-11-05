@@ -14,7 +14,7 @@ def read_interval():
                 key, val = key.strip(), val.strip()
                 values[key] = val
 
-    return values['interval'], values['sequence_length']
+    return int(values['interval']), int(values['sequence_length'])
 
 
 def main():
