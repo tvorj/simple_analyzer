@@ -1,0 +1,1 @@
+nohup python3 -m simple_analyzer.main > nohup.out 2>&1 &
